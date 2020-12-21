@@ -1,9 +1,9 @@
-# node-gitlab-webhook
+# gitlab-webhook-events
 Gitlab Webhooks handler based on Node.js. Support multiple handlers.
 
 ## Language
 
-- [中文](https://github.com/excaliburhan/node-gitlab-webhook/blob/master/docs/zh_CN.md)
+- [中文](https://github.com/ccckblaze/gitlab-webhook-events/blob/master/docs/zh_CN.md)
 
 ## Instructions
 
@@ -13,13 +13,13 @@ If you want to know the settings of Gitlab webhooks, please see: [gitlab webhook
 
 ## Installation
 
-`npm install node-gitlab-webhook --save`
+`npm install gitlab-webhook-events --save`
 
 ## Usage
 
 ```js
 var http = require('http')
-var createHandler = require('node-gitlab-webhook')
+var createHandler = require('gitlab-webhook-events')
 var handler = createHandler([ // multiple handlers
   { path: '/webhook1', secret: 'secret1' },
   { path: '/webhook2', secret: 'secret2' }

@@ -1,12 +1,12 @@
 {
-  "name": "node-gitlab-webhook",
-  "version": "1.0.6",
+  "name": "gitlab-webhook-events",
+  "version": "1.0.7",
   "description": "Gitlab Webhooks handler based on Node.js. Support multiple handlers.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excaliburhan/node-gitlab-webhook.git"
+    "url": "git+https://github.com/ccckblaze/gitlab-webhook-events.git"
   },
   "keywords": [
     "Gitlab",
@@ -16,9 +16,9 @@
   "author": "xiaoping",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/excaliburhan/node-gitlab-webhook/issues"
+    "url": "https://github.com/ccckblaze/gitlab-webhook-events/issues"
   },
-  "homepage": "https://github.com/excaliburhan/node-gitlab-webhook#readme",
+  "homepage": "https://github.com/ccckblaze/gitlab-webhook-events#readme",
   "dependencies": {
     "bl": "^1.2.0"
   }

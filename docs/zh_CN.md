@@ -1,21 +1,19 @@
-# node-gitlab-webhook
+# gitlab-webhook-events
 基于Node.js的Gitlab Webhooks工具, 支持设置多个仓库。
 
 ## 介绍
-
-这个库是专门为Gitlab设置，Github的版本：[node-github-webhook](https://github.com/excaliburhan/node-github-webhook)。
 
 如果你想要查看Gitlab Webhooks的设置，请看：[gitlab webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)。
 
 ## 安装
 
-`npm install node-gitlab-webhook --save`
+`npm install gitlab-webhook-events --save`
 
 ## 使用
 
 ```js
 var http = require('http')
-var createHandler = require('node-gitlab-webhook')
+var createHandler = require('gitlab-webhook-events')
 var handler = createHandler([ // 多个仓库
   { path: '/webhook1', secret: 'secret1' },
   { path: '/webhook2', secret: 'secret2' }
