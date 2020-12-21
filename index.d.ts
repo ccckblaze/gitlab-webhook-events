@@ -1,11 +1,11 @@
-declare module "node-gitlab-webhook" {
-    import { Option, Handler, GitLabHooks } from 'node-gitlab-webhook/interfaces';
+declare module "gitlab-webhook-events" {
+    import { Option, Handler, GitLabHooks } from 'gitlab-webhook-events/interfaces';
 
     const createHandler: (options: Option | Option[]) => Handler & GitLabHooks;
     export = createHandler;
 }
 
-declare module "node-gitlab-webhook/interfaces" {
+declare module "gitlab-webhook-events/interfaces" {
     import * as Http from 'http';
 
     export interface PushEvent {

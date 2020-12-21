@@ -7,8 +7,6 @@ Gitlab Webhooks handler based on Node.js. Support multiple handlers.
 
 ## Instructions
 
-This library is modified for Gitlab, Github version here: [node-github-webhook](https://github.com/excaliburhan/node-github-webhook).
-
 If you want to know the settings of Gitlab webhooks, please see: [gitlab webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html).
 
 ## Installation
